@@ -1,0 +1,995 @@
+{
+  "verifications": [
+    {
+      "claim_id": "105",
+      "verified_status": "contradicted",
+      "confidence": 0.2,
+      "corpus_corroboration_count": 0,
+      "primary_source": {
+        "url": "https://www.salesforce.com/blog/b2b-sales-benchmark-research-finds-some-pipeline-surprises-infographic/",
+        "domain": "salesforce.com",
+        "title": "B2B Sales Benchmark Research Finds Some Pipeline Surprises",
+        "publish_date": null
+      },
+      "evidence_quote": "On average, 13% of leads convert to opportunities and the average time for conversion is 84 days (Salesforce/Implisit analysis). Lead to Customer sits at 2 to 6%.",
+      "secondary_sources": [
+        {
+          "url": "https://prospeo.io/s/lead-to-opportunity-conversion-rate",
+          "domain": "prospeo.io"
+        },
+        {
+          "url": "https://www.zeliq.com/blog/b2b-conversion-rates-by-industry",
+          "domain": "zeliq.com"
+        }
+      ],
+      "search_queries_tried": [
+        "'3% of leads' 'convert to deals' benchmark B2B pipeline metrics"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": -0.1,
+        "reason": "Stated as a hard benchmark ('only like 3% of leads turn into deals') but published B2B benchmarks put lead-to-customer at 2-6% (depending on channel and ACV) and lead-to-opportunity at ~13% \u2014 meaning '3% to deals' is roughly within the lead-to-customer range but stated too narrowly and prescriptively."
+      },
+      "notes": "The 3% figure is approximately within the published 2-6% lead-to-customer range, but the practitioner overstates it as a universal benchmark when in reality it's industry/channel-dependent. Treat as partially supported in spirit, but the specific number lacks an authoritative single source. Marked contradicted because the practitioner is asserting a single benchmark where no consensus single number exists."
+    },
+    {
+      "claim_id": "110",
+      "verified_status": "partially_supported",
+      "confidence": 0.5,
+      "corpus_corroboration_count": 0,
+      "primary_source": {
+        "url": "https://leadsatscale.com/insights/how-to-improve-lead-to-opportunity-conversion-rate/",
+        "domain": "leadsatscale.com",
+        "title": "How to Improve Lead-to-Opportunity Conversion Rate",
+        "publish_date": null
+      },
+      "evidence_quote": "A B2B SaaS company implemented automated lead scoring and reduced response time from 24 hours to under 5 minutes, resulting in their SQL Conversion Rate jumping from 15% to 25% and a 40% increase in qualified opportunities within a single quarter. 360 Learning saw a 40% increase in conversion rates and 97% assignment accuracy using lead scoring with automated routing.",
+      "secondary_sources": [
+        {
+          "url": "https://thm2g.com/measure-lead-scoring-effectiveness/",
+          "domain": "thm2g.com"
+        }
+      ],
+      "search_queries_tried": [
+        "'lead to opportunity' conversion improvement '40%' '60%' lead scoring"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.0,
+        "reason": "Range plausibility-confirmed by case studies showing 40% lifts; the '60%' upper bound is more aggressive but within the realm of reported case studies. Not contradicted."
+      },
+      "notes": "The 40% figure has multiple case-study confirmations (360 Learning, B2B SaaS examples). The 60% upper bound is harder to substantiate from a primary source \u2014 most published case studies cluster around 28-40%. Marked partially supported."
+    },
+    {
+      "claim_id": "12",
+      "verified_status": "confirmed",
+      "confidence": 0.8,
+      "corpus_corroboration_count": 2,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+        "domain": "knowledge.hubspot.com",
+        "title": "Build lead scores to qualify contacts, companies, and deals",
+        "publish_date": null
+      },
+      "evidence_quote": "Scores will be negative if more points are subtracted than added. If you don't want negative scores, set up score criteria to only add points.",
+      "secondary_sources": [
+        {
+          "url": "https://knowledge.hubspot.com/scoring/understand-the-lead-scoring-tool",
+          "domain": "knowledge.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "site:knowledge.hubspot.com lead score negative subtraction final total",
+        "HubSpot lead scoring negative final total update 2025 2026"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.05,
+        "reason": "Platform-state claim confirmed by HubSpot KB. The score-limit options literally start at -100 (e.g., -100 to 100), so negative final scores are baked into the new tool. The '2026 update' framing may be slightly inaccurate (score-limit ranges have included negatives since the tool launched in mid-2025), but the substance \u2014 final scores can go negative \u2014 is correct."
+      },
+      "notes": "Substance of claim is confirmed. The 'recently came out with an update' framing is questionable since negative ranges have been part of the new tool since launch in 2025 \u2014 but the practitioner is internal HubSpot product and may be referring to a specific recent change to total-score handling. Charitable read: confirmed at 0.80."
+    },
+    {
+      "claim_id": "15",
+      "verified_status": "partially_supported",
+      "confidence": 0.6,
+      "corpus_corroboration_count": 1,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+        "domain": "knowledge.hubspot.com",
+        "title": "Build lead scores to qualify contacts, companies, and deals",
+        "publish_date": null
+      },
+      "evidence_quote": "Lead scoring is available for Marketing Hub and Sales Hub Professional and Enterprise subscriptions.",
+      "secondary_sources": [],
+      "search_queries_tried": [
+        "site:knowledge.hubspot.com lead scoring 'custom events' criteria Professional",
+        "HubSpot lead scoring 'custom events' Professional tier announcement product update"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.0,
+        "reason": "Practitioner is internal HubSpot product staff (admin hug video). Custom events as scorable criteria are referenced in lead-scoring KB. Tier-down move from Enterprise to Pro is plausible given how product is marketed, but I could not locate the explicit release note confirming the tier change."
+      },
+      "notes": "KB confirms lead scoring is on Pro+, and event criteria including custom events appear in event-category lists. The specific claim that custom events were RECENTLY moved from Enterprise to Pro is not contradicted but I couldn't find a primary release note documenting the tier change. Treating as partially supported because (a) custom events as scorable criteria is documented and (b) the practitioner is HubSpot internal staff."
+    },
+    {
+      "claim_id": 157,
+      "verified_status": "source_outdated",
+      "confidence": 0.2,
+      "corpus_corroboration_count": 4,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/understand-the-lead-scoring-tool",
+        "domain": "knowledge.hubspot.com",
+        "title": "Understand the lead scoring tool",
+        "publish_date": null
+      },
+      "evidence_quote": "Available with any of the following subscriptions, except where noted: Marketing Hub Professional, Enterprise; Sales Hub Professional, Enterprise.",
+      "secondary_sources": [
+        {
+          "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+          "domain": "knowledge.hubspot.com"
+        },
+        {
+          "url": "https://community.hubspot.com/t5/Releases-and-Updates/HubSpot-s-New-Lead-Scoring-Your-Guide-to-the-August-2025-Update/ba-p/1110840",
+          "domain": "community.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "site:knowledge.hubspot.com lead scoring beta",
+        "HubSpot lead scoring tool general availability 2025"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": -0.05,
+        "reason": "Claim was accurate at recording time (Dec 2024) but is now stale: tool has graduated to GA. Recording-time accuracy noted by practitioner."
+      },
+      "notes": "Practitioner explicitly time-stamped 'at the time I'm filming this video.' By Aug 2025 the tool was GA on Marketing Hub Pro/Enterprise and Sales Hub Pro/Enterprise. Status flag = source_outdated for canon staleness; the underlying assertion was correct in Dec 2024."
+    },
+    {
+      "claim_id": "16",
+      "verified_status": "confirmed",
+      "confidence": 0.8,
+      "corpus_corroboration_count": 2,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+        "domain": "knowledge.hubspot.com",
+        "title": "Build lead scores to qualify contacts, companies, and deals",
+        "publish_date": null
+      },
+      "evidence_quote": "To add a rule based on segment membership: Click + Add segment membership criteria. Select an operator. Options include Belongs to all of (i.e. included in all selected segments), Belongs to none of, and Belongs to any of (i.e. included in at least one selected segment).",
+      "secondary_sources": [
+        {
+          "url": "https://knowledge.hubspot.com/segments/determine-filter-criteria",
+          "domain": "knowledge.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "site:knowledge.hubspot.com lead scoring 'segment membership' criteria",
+        "HubSpot lead scoring 'segment membership' criteria release announcement"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.05,
+        "reason": "Feature confirmed by HubSpot KB. The 'Belongs to any of' / 'all of' / 'none of' operator structure matches the claim's description of complex AND/OR segments being usable as scoring criteria. Recently-launched framing is consistent with the documented Aug 2025 lead-scoring overhaul."
+      },
+      "notes": "Feature existence confirmed; 'just launched' timing is consistent with the new scoring tool (post Aug 2025 update) but exact launch date not pinpointed. Two practitioners in the corpus reference segment-membership scoring criteria."
+    },
+    {
+      "claim_id": "17",
+      "verified_status": "confirmed",
+      "confidence": 0.8,
+      "corpus_corroboration_count": 1,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+        "domain": "knowledge.hubspot.com",
+        "title": "Build lead scores to qualify contacts, companies, and deals",
+        "publish_date": null
+      },
+      "evidence_quote": "To add more criteria that must also be met for the rule, click + Add [object] property, then set your criteria for that property. This follows AND logic, which means the record must meet all the property criteria for the points to be added or subtracted.",
+      "secondary_sources": [
+        {
+          "url": "https://community.hubspot.com/t5/Lists-Lead-Scoring-Workflows/New-Lead-Scoring-Beta-Multiple-Criteria/m-p/1239802",
+          "domain": "community.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "'HubSpot' lead scoring 'conditional scoring' cross-property 2025 launch new feature",
+        "site:knowledge.hubspot.com cross-property AND criteria lead scoring rule"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.05,
+        "reason": "Cross-property AND criteria within a single rule is documented in HubSpot KB. Community thread confirms this is a recent addition vs. legacy where workarounds (workflow / segment enrollment) were needed. Practitioner framing as 'new' is supported."
+      },
+      "notes": "Confirmed in primary KB. Note KB phrasing \u2014 'follows AND logic which means the score will update only if all criteria are met' \u2014 exactly matches the practitioner's description. Community thread also references conditional logic across properties as a recent feature."
+    },
+    {
+      "claim_id": "19",
+      "verified_status": "not_addressed",
+      "confidence": 0.5,
+      "corpus_corroboration_count": 1,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+        "domain": "knowledge.hubspot.com",
+        "title": "Build lead scores to qualify contacts, companies, and deals",
+        "publish_date": null
+      },
+      "evidence_quote": "To view score distribution insights for multiple records, click Actions, then select Preview distribution.",
+      "secondary_sources": [],
+      "search_queries_tried": [
+        "site:knowledge.hubspot.com lead score distribution matrix click cell contacts",
+        "HubSpot lead scoring 2x2 matrix clickable cell use in segment"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.0,
+        "reason": "This is a forward-looking roadmap claim ('coming this month') from HubSpot internal product staff. KB describes the distribution preview but does not document the clickable-cell-to-contact-list interaction yet, consistent with a planned feature not yet shipped (or shipped after KB doc was last updated). Practitioner-from-product is the strongest source for roadmap claims."
+      },
+      "notes": "Roadmap / product-promise claim from HubSpot internal staff. Cannot be confirmed by KB because the doc references the matrix preview but not interactive cell-clicking. Classify as not_addressed; trust the practitioner since they're internal HubSpot product, but cannot independently verify."
+    },
+    {
+      "claim_id": 202,
+      "verified_status": "confirmed",
+      "confidence": 0.95,
+      "corpus_corroboration_count": 4,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+        "domain": "knowledge.hubspot.com",
+        "title": "Build lead scores to qualify contacts, companies, and deals",
+        "publish_date": null
+      },
+      "evidence_quote": "Access it via Marketing > Lead Scoring in your HubSpot account.",
+      "secondary_sources": [
+        {
+          "url": "https://knowledge.hubspot.com/scoring/understand-the-lead-scoring-tool",
+          "domain": "knowledge.hubspot.com"
+        },
+        {
+          "url": "https://community.hubspot.com/t5/Releases-and-Updates/Navigating-the-Transition-Migrating-from-Legacy-Scoring-to/ba-p/1139800",
+          "domain": "community.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "site:knowledge.hubspot.com lead scoring tool standalone module",
+        "HubSpot legacy scoring property migration new module"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.05,
+        "reason": "Confirmed by HubSpot KB: new tool is a standalone module under Marketing > Lead Scoring; legacy scoring lived as a contact property."
+      },
+      "notes": "Multiple corpus sources (lex-hultquist, e547648f8ab6c45b, cb4ee0bff7af1a57, neighbourhood) independently corroborate. Tier 1 KB confirms current Marketing > Lead Scoring location."
+    },
+    {
+      "claim_id": "210",
+      "verified_status": "partially_supported",
+      "confidence": 0.5,
+      "corpus_corroboration_count": 2,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+        "domain": "knowledge.hubspot.com",
+        "title": "Build lead scores to qualify contacts, companies, and deals",
+        "publish_date": null
+      },
+      "evidence_quote": "To set up score decay, which automatically reduces a score based on how long ago a scored event occurred, toggle the **Decay scores** switch on. Select the **percentage** to reduce the score by, and the **period of time** that must pass to reduce the score.",
+      "secondary_sources": [
+        {
+          "url": "https://knowledge.hubspot.com/scoring/understand-the-lead-scoring-tool",
+          "domain": "knowledge.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "corpus grep: '4 points|four points|cap.*20'",
+        "HubSpot lead scoring email click point cap"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.0,
+        "reason": "Per-event point values and per-group caps are user-configurable in HubSpot's lead scoring tool \u2014 '4 points/cap 20' is a valid example configuration, not a platform-default. Practitioner is offering a sample number, which is reasonable."
+      },
+      "notes": "This is an example configuration choice, not a platform default. HubSpot lead scoring allows users to set any point value per event and any group total cap. The practitioner's '4 points / cap 20' is a representative example. Corpus has multiple corroborating examples of group caps in this same range. Status: partially_supported \u2014 the *capability* (point values + caps) is confirmed by KB; the specific number is illustrative."
+    },
+    {
+      "claim_id": "214",
+      "verified_status": "partially_supported",
+      "confidence": 0.6,
+      "corpus_corroboration_count": 0,
+      "primary_source": {
+        "url": "https://www.gradient.works/blog/2025-b2b-sales-performance-benchmarks",
+        "domain": "gradient.works",
+        "title": "2025 B2B sales performance benchmarks",
+        "publish_date": "2025"
+      },
+      "evidence_quote": "B2B win rates declined 18% year-over-year and 27% versus 2021, according to Ebsta benchmarks. Sales cycles were 16% longer in H1 2023 compared to the prior year, and 38% longer than 2021.",
+      "secondary_sources": [
+        {
+          "url": "https://www.uplead.com/b2b-sales-statistics/",
+          "domain": "uplead.com"
+        },
+        {
+          "url": "https://www.trykondo.com/blog/2025-b2b-sales-trends",
+          "domain": "trykondo.com"
+        }
+      ],
+      "search_queries_tried": [
+        "'win rates declined' '18%' 'sales cycles' '16%' B2B research"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.0,
+        "reason": "Numbers are real (Ebsta benchmark data) but practitioner did not cite source by name; the 18% / 16% pair traces to the same underlying Ebsta dataset for 2023, not 'industry research' generally."
+      },
+      "notes": "Both numbers are confirmed in Ebsta's benchmark data: 18% YoY win-rate decline (2023) and 16% longer sales cycles (H1 2023 vs prior year). The practitioner attributes them to 'industry research' which is vague but the underlying numbers check out. Status: partially_supported (numbers correct, attribution imprecise)."
+    },
+    {
+      "claim_id": 221,
+      "verified_status": "confirmed",
+      "confidence": 0.95,
+      "corpus_corroboration_count": 4,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+        "domain": "knowledge.hubspot.com",
+        "title": "Build lead scores to qualify contacts, companies, and deals",
+        "publish_date": null
+      },
+      "evidence_quote": "Access it via Marketing > Lead Scoring in your HubSpot account.",
+      "secondary_sources": [
+        {
+          "url": "https://community.hubspot.com/t5/Releases-and-Updates/Navigating-the-Transition-Migrating-from-Legacy-Scoring-to/ba-p/1139800",
+          "domain": "community.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "HubSpot lead scoring side menu Marketing channel",
+        "site:knowledge.hubspot.com lead scoring navigation"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.05,
+        "reason": "Restates same product change as claim 202; confirmed by Tier 1 KB and corpus."
+      },
+      "notes": "Same underlying fact as claim 202; corpus corroboration in cb4ee0bff7af1a57, neighbourhood__L5KJ1Q_ER10, lex-hultquist, and e547648f8ab6c45b."
+    },
+    {
+      "claim_id": "236",
+      "verified_status": "not_addressed",
+      "confidence": 0.5,
+      "corpus_corroboration_count": 0,
+      "primary_source": {
+        "url": "https://go.forrester.com/blogs/the-correct-way-to-define-a-lead/",
+        "domain": "forrester.com",
+        "title": "The Correct Way to Define a Lead",
+        "publish_date": null
+      },
+      "evidence_quote": null,
+      "secondary_sources": [
+        {
+          "url": "https://www.forrester.com/blogs/the-aql-a-missed-opportunity-with-lead-scoring/",
+          "domain": "forrester.com"
+        }
+      ],
+      "search_queries_tried": [
+        "'Forrester' 'lead volume over lead quality' sales efficiency exact phrase",
+        "Forrester B2B 'lead volume' 'lead quality' sales efficiency research"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": -0.05,
+        "reason": "Could not locate the exact Forrester research the practitioner attributes the claim to. The general theme (lead quality > volume) is supported by other Forrester data (top performers convert 1.54% to revenue; only 1% convert to closed deals), but the specific attributed phrasing was not found in any primary source."
+      },
+      "notes": "The general thesis (B2B teams overemphasizing lead volume hurts sales efficiency) is consistent with Forrester's broader work on lead management and lead-to-revenue conversion. However, the specific quote/attribution as worded ('B2B marketers who emphasize lead volume over lead quality reduce sales efficiency') could not be matched to a specific Forrester report or blog post in the search results. Adjacent Forrester work supports the spirit but not the exact citation. Status: not_addressed (specific source not located)."
+    },
+    {
+      "claim_id": 252,
+      "verified_status": "confirmed",
+      "confidence": 0.95,
+      "corpus_corroboration_count": 4,
+      "primary_source": {
+        "url": "https://www.weidert.com/blog/hubspot-lead-scoring-tutorial",
+        "domain": "weidert.com",
+        "title": "HubSpot Lead Scoring Update: What to Know Before August 31",
+        "publish_date": "2025-07-22"
+      },
+      "evidence_quote": "If you're using the legacy 'HubSpot Score' property, your workflows, alerts, and automation will stop functioning on August 31, 2025.",
+      "secondary_sources": [
+        {
+          "url": "https://community.hubspot.com/t5/Releases-and-Updates/Navigating-the-Transition-Migrating-from-Legacy-Scoring-to/ba-p/1139800",
+          "domain": "community.hubspot.com"
+        },
+        {
+          "url": "https://www.sixandflow.com/marketing-blog/with-hubspot-score-retiring-where-is-lead-scoring-in-hubspot",
+          "domain": "sixandflow.com"
+        },
+        {
+          "url": "https://www.brightdigital.com/en/blog/hubspot-legacy-lead-scoring-discontinues",
+          "domain": "brightdigital.com"
+        }
+      ],
+      "search_queries_tried": [
+        "HubSpot legacy lead scoring HubSpot Score property retired August 31 2025",
+        "site:knowledge.hubspot.com lead scoring legacy property August 31"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.1,
+        "reason": "Hard-stop description matches HubSpot's communicated timeline (May 1 = no new, Jul 1 = no edits, Aug 31 = stops updating). Multiple Tier 1/2 sources confirm."
+      },
+      "notes": "Corpus duplicates: f13de6515a7ab429, on-the-fuze__K2LUHYj0WSQ, 73899565da4f2bb5, struck-ag__FFaGdQGmmG0. 'Hard stop' framing is editorial but accurately reflects HubSpot's communicated finality on Aug 31."
+    },
+    {
+      "claim_id": "253",
+      "verified_status": "unverifiable",
+      "confidence": 0.45,
+      "corpus_corroboration_count": 0,
+      "primary_source": {
+        "url": null,
+        "domain": null,
+        "title": null,
+        "publish_date": null
+      },
+      "evidence_quote": null,
+      "secondary_sources": [
+        {
+          "url": "https://community.hubspot.com/t5/Releases-and-Updates/HubSpot-s-New-Lead-Scoring-Your-Guide-to-the-August-2025-Update/ba-p/1110840",
+          "domain": "community.hubspot.com"
+        },
+        {
+          "url": "https://www.hubspot.com/products/marketing/lead-scoring",
+          "domain": "hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "HubSpot August 2025 lead scoring update '22%' MQL SQL announcement",
+        "HubSpot 'lead scoring' '22%' improvement MQL SQL announcement Inbound 2025",
+        "'new lead scoring' HubSpot '22%' MQL improvement product announcement"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": -0.1,
+        "reason": "The 22% MQL-to-SQL improvement figure is presented as a HubSpot-citable stat ('businesses who migrated to the new lead scoring solution have seen\u2026') but I could not locate that statistic on hubspot.com, knowledge.hubspot.com, blog.hubspot.com, or in the August 2025 community release announcement. Either the practitioner is paraphrasing internal data not yet published, or this is unverifiable."
+      },
+      "notes": "The HubSpot lead-scoring product page cites '129% more leads, 36% more deals, 37% better ticket closure' as the canonical migration stats \u2014 not 22% MQL-to-SQL. The 22% figure may originate from a HubSpot webinar or blog deeper in the corpus that I could not surface. Marked unverifiable per rubric ('reasonable effort, no primary source')."
+    },
+    {
+      "claim_id": "254",
+      "verified_status": "partially_supported",
+      "confidence": 0.5,
+      "corpus_corroboration_count": 1,
+      "primary_source": {
+        "url": "https://optif.ai/learn/questions/lead-response-time-benchmark/",
+        "domain": "optif.ai",
+        "title": "Lead Response Time: 47h Average, <5 Min = 2.6x Close Rate (939 Companies)",
+        "publish_date": "2024"
+      },
+      "evidence_quote": "The average B2B lead response time is 47 hours, with only 23% of companies responding within 5 minutes. Leads contacted in <5 minutes achieve a 32% close rate\u20142.6x higher than those contacted after 24+ hours.",
+      "secondary_sources": [
+        {
+          "url": "https://martal.ca/speed-to-lead-lb/",
+          "domain": "martal.ca"
+        },
+        {
+          "url": "https://greetnow.com/blog/speed-to-lead-statistics-2024",
+          "domain": "greetnow.com"
+        }
+      ],
+      "search_queries_tried": [
+        "'lead response time' '5 minutes' benchmark 2024 OR 2025 B2B"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": -0.05,
+        "reason": "The 5-minute benchmark is genuinely the canonical industry standard (cited across multiple 2024 sources). The practitioner's specific framing 'in 2024 the benchmark was 5 minutes, in 2026 it's under 2 minutes' reflects evolving best-practice claims by AI-tooling vendors but I could not locate a primary research source for the specific '<2 minute' 2026 number."
+      },
+      "notes": "5-minute benchmark for 2024 is well-documented and confirmed. The 'under 2 minutes in 2026' claim is more aspirational \u2014 supported by AI-vendor marketing (Martal etc.) but not by independent third-party benchmark research. Status: partially_supported (2024 number confirmed; 2026 number unverified)."
+    },
+    {
+      "claim_id": "255",
+      "verified_status": "confirmed",
+      "confidence": 0.95,
+      "corpus_corroboration_count": 1,
+      "primary_source": {
+        "url": "https://6sense.com/blog/dont-call-us-well-call-you-what-research-says-about-when-b2b-buyers-reach-out-to-sellers/",
+        "domain": "6sense.com",
+        "title": "The Point of First Contact Constant: Buyers say, Don't call us, we'll call you",
+        "publish_date": null
+      },
+      "evidence_quote": "B2B buyers spend 70% of their buying journey doing their own research before talking to vendors. It doesn't matter whether the buying journey is shorter or longer, the 70% mark is consistent. Buyers initiated contact 83% of the time. 81% of buyers indicated they have a preferred vendor at the time of first contact and 85% already established purchase requirements before reaching out.",
+      "secondary_sources": [
+        {
+          "url": "https://6sense.com/newsroom/84-of-b2b-deals-are-decided-before-marketers-even-know-about-them/",
+          "domain": "6sense.com"
+        },
+        {
+          "url": "https://www.demandgenreport.com/industry-news/80-of-b2b-buyers-initiate-first-contact-once-theyre-70-through-their-buying-journey/48394/",
+          "domain": "demandgenreport.com"
+        },
+        {
+          "url": "https://6sense.com/science-of-b2b/buyer-experience-report-2025/",
+          "domain": "6sense.com"
+        }
+      ],
+      "search_queries_tried": [
+        "'6sense' OR 'Gartner' '70%' OR '80%' buying journey before contact vendor"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.1,
+        "reason": "Confirmed by 6sense's primary research (Buyer Experience Report 2024 and 2025). The '70% of buying journey before contact' is 6sense's well-documented finding. The 81-85% shortlisting/preferred-vendor stat is also confirmed."
+      },
+      "notes": "Core finding (70% of buying journey before contact, vendors already shortlisted at form-fill) is directly confirmed by 6sense's primary research, and adjacent figures (83% buyer-initiated, 81% preferred-vendor at first contact, 85% pre-established requirements) are also confirmed. Gartner attribution is more loose \u2014 much of this is 6sense's own research, often cited alongside Gartner studies on buying-group complexity. Status: confirmed."
+    },
+    {
+      "claim_id": "260",
+      "verified_status": "unverifiable",
+      "confidence": 0.45,
+      "corpus_corroboration_count": 0,
+      "primary_source": {
+        "url": null,
+        "domain": null,
+        "title": null,
+        "publish_date": null
+      },
+      "evidence_quote": null,
+      "secondary_sources": [],
+      "search_queries_tried": [
+        "corpus grep: '2x2|30.*40%|wasted time'"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.0,
+        "reason": "Practitioner-anecdotal claim about their own client portfolio results. No primary source could verify a partner-agency's internal across-clients benchmark."
+      },
+      "notes": "Practitioner-anecdotal: '30-40% wasted time reduction across dozens of client portals' is partner-agency self-reported aggregate data. Not a platform claim. Not verifiable. Marked unverifiable per rubric."
+    },
+    {
+      "claim_id": "268",
+      "verified_status": "partially_supported",
+      "confidence": 0.6,
+      "corpus_corroboration_count": 3,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/understand-the-lead-scoring-tool",
+        "domain": "knowledge.hubspot.com",
+        "title": "Understand the lead scoring tool",
+        "publish_date": null
+      },
+      "evidence_quote": "Score decay intervals can be set to every 1, 3, 6, or 12 months, with each month equal to 30 days. To set up score decay, which automatically reduces a score based on how long ago a scored event occurred, you toggle the Decay scores switch on and select the percentage to reduce the score by, and the period of time that must pass to reduce the score.",
+      "secondary_sources": [
+        {
+          "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+          "domain": "knowledge.hubspot.com"
+        },
+        {
+          "url": "https://community.hubspot.com/t5/Releases-and-Updates/HubSpot-s-New-Lead-Scoring-Your-Guide-to-the-August-2025-Update/ba-p/1110840",
+          "domain": "community.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "HubSpot lead scoring 'score decay' 30 days percentage engagement degrade 2025"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.0,
+        "reason": "The CAPABILITY (native score decay with user-selectable percentage and time interval) is fully confirmed by HubSpot KB. The PARAMETER VALUES the practitioner gives ('30%/30 days', '20-50% range') are reasonable example settings within HubSpot's configurable space, but they are not platform-canonical defaults \u2014 they are the practitioner's prescriptive recommendation."
+      },
+      "notes": "HubSpot KB confirms: (1) score decay exists as a native feature post-Aug-2025, (2) user-configurable percentage, (3) time intervals limited to 1, 3, 6, or 12 months \u2014 note that HubSpot's smallest interval is '1 month (30 days)', so the practitioner's '30 days' framing is correct. The specific 30% / 20-50% range is the practitioner's prescription, not a HubSpot default. Status: partially_supported \u2014 capability and intervals confirmed; specific percentages are practitioner recommendation."
+    },
+    {
+      "claim_id": "286",
+      "verified_status": "partially_supported",
+      "confidence": 0.6,
+      "corpus_corroboration_count": 2,
+      "primary_source": {
+        "url": "https://www.reform.app/blog/lead-scoring-thresholds-data-driven-best-practices",
+        "domain": "reform.app",
+        "title": "Lead Scoring Thresholds: Data-Driven Best Practices",
+        "publish_date": null
+      },
+      "evidence_quote": "A common recommendation is to set your MQL threshold to capture the top 20% of leads by score, which typically means 50\u201375 points on a 100-point scale, resulting in 15\u201325% conversion rates from qualified leads to closed deals.",
+      "secondary_sources": [
+        {
+          "url": "https://www.nbh.co/learn/hubspot-lead-scoring-2026-how-to-drive-predictable-growth",
+          "domain": "nbh.co"
+        }
+      ],
+      "search_queries_tried": [
+        "lead scoring threshold benchmark 20% 30% sales qualified leads industry benchmark",
+        "site:knowledge.hubspot.com qualifying threshold percentage of leads"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.0,
+        "reason": "20-30% top-bucket sizing is industry-folklore-level guidance; one corroborating practitioner article cites top-20% specifically. Not in HubSpot KB but consistent with practitioner consensus. The exact range (20-30%) is a heuristic, not a measured benchmark."
+      },
+      "notes": "Internal corpus shows two practitioners citing the same 20-30% bucket sizing rule (claim 286 itself plus a 'right-sized buckets' guideline claim). HubSpot KB does not prescribe a target qualifying percentage. Heuristic, not platform fact."
+    },
+    {
+      "claim_id": "30",
+      "verified_status": "not_addressed",
+      "confidence": 0.5,
+      "corpus_corroboration_count": 1,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/lead-score-history-and-performance",
+        "domain": "knowledge.hubspot.com",
+        "title": "View lead score history and performance",
+        "publish_date": null
+      },
+      "evidence_quote": "The right panel displays a trend graph showing score changes over the past six months and a list of events that changed the score.",
+      "secondary_sources": [],
+      "search_queries_tried": [
+        "site:knowledge.hubspot.com lead score history performance card timestamp",
+        "HubSpot score history hyperlink asset email triggered rule"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.0,
+        "reason": "Roadmap claim from HubSpot internal product staff. KB confirms score-history card exists with score-change events listed; KB does not detail the rule-granularity, timestamp, or hyperlink-asset features as either current or planned. Internal-staff roadmap statement, can't be primary-verified."
+      },
+      "notes": "Forward-looking roadmap claim about UX improvements to score-history card. KB confirms the card exists but doesn't address (a) showing only one specific rule vs whole group, (b) timestamps, (c) hyperlinking the asset. Internal HubSpot product staff source \u2014 credible for roadmap, just not verifiable from current KB."
+    },
+    {
+      "claim_id": "303",
+      "verified_status": "not_addressed",
+      "confidence": 0.5,
+      "corpus_corroboration_count": 1,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+        "domain": "knowledge.hubspot.com",
+        "title": "Build lead scores to qualify contacts, companies, and deals",
+        "publish_date": null
+      },
+      "evidence_quote": "To set up score decay, which automatically reduces a score based on how long ago a scored event occurred, toggle the Decay scores switch on. Select the percentage to reduce the score by, and the period of time that must pass to reduce the score.",
+      "secondary_sources": [],
+      "search_queries_tried": [
+        "site:knowledge.hubspot.com lead score decay 90 days inactivity time",
+        "HubSpot decay percentage period default"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.0,
+        "reason": "HubSpot decay is fully user-configurable (any percentage, any period); '90 days' is not a platform default or prescription. Corpus has one practitioner using a 90-day cutoff for legacy time-bounded negative criteria \u2014 that's an example, not a standard."
+      },
+      "notes": "The claim presents 90 days as 'typical' but neither HubSpot KB nor the corpus establishes 90 days as a standard or default. Corpus shows decay configured at varied intervals (50% every 3 months, 100% every 1 month, every 12 months). The 90-day figure appears once in the corpus as a single practitioner's example for legacy negative-points-after-X-days."
+    },
+    {
+      "claim_id": 315,
+      "verified_status": "confirmed",
+      "confidence": 0.95,
+      "corpus_corroboration_count": 2,
+      "primary_source": {
+        "url": "https://community.hubspot.com/t5/Releases-and-Updates/Navigating-the-Transition-Migrating-from-Legacy-Scoring-to/ba-p/1139800",
+        "domain": "community.hubspot.com",
+        "title": "Navigating the Transition: Migrating from Legacy Scoring to HubSpot's New Lead & Health Scoring Apps",
+        "publish_date": "2025"
+      },
+      "evidence_quote": "Marketing Professional and Enterprise customers can now create scores using the Lead Scoring tool, which features more advanced logic and actionable insights.",
+      "secondary_sources": [
+        {
+          "url": "https://www.weidert.com/blog/hubspot-lead-scoring-tutorial",
+          "domain": "weidert.com"
+        },
+        {
+          "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+          "domain": "knowledge.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "HubSpot deprecating behavior score fit score property new module",
+        "HubSpot lead scoring score decay caps native"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.05,
+        "reason": "RevPartners' description of deprecation accurately matches HubSpot's actual sunset; new module natively supports per-criterion caps and score decay."
+      },
+      "notes": "Corpus corroboration: revpartners__zvW7-ptU86s and 785bfa32be7a4b94. The 'behavior score' and 'fit score' naming refers to RevPartners' custom-built legacy properties; HubSpot KB confirms new tool supports decay and engagement/fit separation natively."
+    },
+    {
+      "claim_id": 329,
+      "verified_status": "source_outdated",
+      "confidence": 0.2,
+      "corpus_corroboration_count": 2,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/understand-the-lead-scoring-tool",
+        "domain": "knowledge.hubspot.com",
+        "title": "Understand the lead scoring tool",
+        "publish_date": null
+      },
+      "evidence_quote": "Available with any of the following subscriptions, except where noted: Marketing Hub Professional, Enterprise; Sales Hub Professional, Enterprise.",
+      "secondary_sources": [
+        {
+          "url": "https://community.hubspot.com/t5/Releases-and-Updates/Navigating-the-Transition-Migrating-from-Legacy-Scoring-to/ba-p/1139800",
+          "domain": "community.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "HubSpot lead scoring public beta September 2024 Marketing Pro Enterprise",
+        "site:knowledge.hubspot.com lead scoring beta general availability"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": -0.05,
+        "reason": "Public beta status was accurate Sept 2024; tool has since gone GA. Plan-tier scoping (Marketing Hub Pro/Enterprise) remains correct."
+      },
+      "notes": "Beta status fact is now stale (tool is GA by mid-2025), but the practitioner's recording-time framing was accurate. The plan-tier portion is fully confirmed by current KB. Corpus: aefb5b6e0bc1ae81, six-and-flow__8pzb56cGcR8."
+    },
+    {
+      "claim_id": 341,
+      "verified_status": "confirmed",
+      "confidence": 0.95,
+      "corpus_corroboration_count": 2,
+      "primary_source": {
+        "url": "https://www.weidert.com/blog/hubspot-lead-scoring-tutorial",
+        "domain": "weidert.com",
+        "title": "HubSpot Lead Scoring Update: What to Know Before August 31",
+        "publish_date": "2025-07-22"
+      },
+      "evidence_quote": "If you're using the legacy 'HubSpot Score' property, your workflows, alerts, and automation will stop functioning on August 31, 2025.",
+      "secondary_sources": [
+        {
+          "url": "https://community.hubspot.com/t5/Releases-and-Updates/Navigating-the-Transition-Migrating-from-Legacy-Scoring-to/ba-p/1139800",
+          "domain": "community.hubspot.com"
+        },
+        {
+          "url": "https://www.brightdigital.com/en/blog/hubspot-legacy-lead-scoring-discontinues",
+          "domain": "brightdigital.com"
+        }
+      ],
+      "search_queries_tried": [
+        "HubSpot legacy lead scoring stop updating August 31 2025 migrate pro enterprise",
+        "site:knowledge.hubspot.com lead scoring legacy property August 31"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.1,
+        "reason": "Aug 31 2025 sunset and pro/enterprise migration guidance both confirmed by community + Tier 2 sources. Practitioner's caveat for lower-tier users to seek alternatives is a reasonable inference (new tool is Pro/Enterprise-only)."
+      },
+      "notes": "Corpus: 73899565da4f2bb5, struck-ag__FFaGdQGmmG0 (paraphrase of original source quote). Date and migration urgency confirmed multiple ways."
+    },
+    {
+      "claim_id": 359,
+      "verified_status": "confirmed",
+      "confidence": 0.95,
+      "corpus_corroboration_count": 2,
+      "primary_source": {
+        "url": "https://themiddlesix.com/big-changes-ahead-hubspot-insights/",
+        "domain": "themiddlesix.com",
+        "title": "HubSpot Insights Retirement: Best Alternatives for Data Enrichment (2025)",
+        "publish_date": "2025"
+      },
+      "evidence_quote": "HubSpot Insights was sunset on March 17, 2025, and after that date, users can no longer access HubSpot Insights.",
+      "secondary_sources": [
+        {
+          "url": "https://www.aboutinbound.com/blog/hubspot-insights-ends-breeze-intelligence-for-better-data-enrichment",
+          "domain": "aboutinbound.com"
+        },
+        {
+          "url": "https://community.hubspot.com/t5/Sales-Hub-Tools/Insights-Removed-and-Charging-for-Breeze-Intelligence/m-p/1152290",
+          "domain": "community.hubspot.com"
+        },
+        {
+          "url": "https://www.processproconsulting.com/resources/top-crm-data-enrichment-tools-to-replace-hubspot-insights/",
+          "domain": "processproconsulting.com"
+        }
+      ],
+      "search_queries_tried": [
+        "HubSpot Insights deprecated phased out company revenue auto-populate",
+        "HubSpot Insights sunset Breeze Intelligence replacement"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.05,
+        "reason": "HubSpot Insights was sunset Mar 17 2025; auto-enrichment of properties like industry, revenue, location is no longer free. Practitioner's framing is accurate; replacement is paid Breeze Intelligence."
+      },
+      "notes": "Privacy framing is partly editorial (HubSpot's stated rationale was monetization shift to Breeze Intelligence rather than purely privacy), but the core factual claim \u2014 Insights phased out, manual/external enrichment now required \u2014 is fully confirmed. Corpus: 73899565da4f2bb5, struck-ag__FFaGdQGmmG0."
+    },
+    {
+      "claim_id": 365,
+      "verified_status": "confirmed",
+      "confidence": 0.95,
+      "corpus_corroboration_count": 3,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+        "domain": "knowledge.hubspot.com",
+        "title": "Build lead scores to qualify contacts, companies, and deals",
+        "publish_date": null
+      },
+      "evidence_quote": "The tool supports three object types: contacts, companies, and deals.",
+      "secondary_sources": [
+        {
+          "url": "https://community.hubspot.com/t5/Releases-and-Updates/Navigating-the-Transition-Migrating-from-Legacy-Scoring-to/ba-p/1139800",
+          "domain": "community.hubspot.com"
+        },
+        {
+          "url": "https://www.weidert.com/blog/hubspot-lead-scoring-tutorial",
+          "domain": "weidert.com"
+        }
+      ],
+      "search_queries_tried": [
+        "site:knowledge.hubspot.com lead scoring contacts companies deals",
+        "HubSpot new lead scoring object types"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.1,
+        "reason": "Both halves confirmed: legacy Score property sunset Aug 31 2025; new tool supports contacts, companies, deals as scorable objects."
+      },
+      "notes": "Confirmed via Tier 1 KB. Corpus: 51e023a682f8fcf7, admin-hug__tGzHYHGFUs8 explicitly state 'objects you can score on are contacts, companies and deals.'"
+    },
+    {
+      "claim_id": "368",
+      "verified_status": "contradicted",
+      "confidence": 0.1,
+      "corpus_corroboration_count": 1,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+        "domain": "knowledge.hubspot.com",
+        "title": "Build lead scores to qualify contacts, companies, and deals",
+        "publish_date": null
+      },
+      "evidence_quote": "Options include -100 to 100, -200 to 200, -300 to 300, -400 to 400, -500 to 500, -1,000 to 1,000, or -10,000 to 10,000.",
+      "secondary_sources": [
+        {
+          "url": "https://knowledge.hubspot.com/scoring/understand-the-lead-scoring-tool",
+          "domain": "knowledge.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "site:knowledge.hubspot.com lead score limit 100 500 Marketing Hub Professional Enterprise",
+        "site:knowledge.hubspot.com 'score limit' lead scoring increments"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": -0.15,
+        "reason": "Specific numerical claim contradicted by primary source. KB documents 7 score-limit options up to \u00b110,000 with no tier gating between Pro and Enterprise. Practitioner conflated default (100) with a tier ceiling that doesn't exist."
+      },
+      "notes": "Two contradictions: (a) ceiling is 10,000 not 500; (b) the documented options apply uniformly across Pro/Enterprise \u2014 KB never gates ceiling by tier. Corpus also has a separate practitioner saying 'increments of 100 up to 500', which is also wrong vs current KB (or possibly stale). Numerical claim fails verification at primary source."
+    },
+    {
+      "claim_id": "38",
+      "verified_status": "partially_supported",
+      "confidence": 0.6,
+      "corpus_corroboration_count": 3,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+        "domain": "knowledge.hubspot.com",
+        "title": "Build lead scores to qualify contacts, companies, and deals",
+        "publish_date": null
+      },
+      "evidence_quote": "To add more criteria that must also be met for the rule, click + Add [object] property, then set your criteria for that property. This follows AND logic, which means the record must meet all the property criteria for the points to be added or subtracted.",
+      "secondary_sources": [
+        {
+          "url": "https://community.hubspot.com/t5/Lists-Lead-Scoring-Workflows/New-Lead-Scoring-Beta-Multiple-Criteria/m-p/1239802",
+          "domain": "community.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "HubSpot lead scoring conditional scoring cross-property 2025 launch new feature",
+        "site:knowledge.hubspot.com lead scoring 'segment membership' criteria"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.0,
+        "reason": "Two of the five UX wins (conditional scoring cross-property AND, segment-membership criterion) are confirmed in KB. The other three (faster combined-distribution preview, more Loom walkthroughs, editor performance improvements) are aggregate / qualitative claims from HubSpot internal staff that can't be independently verified but are reasonable from a product team."
+      },
+      "notes": "Composite claim aggregating multiple UX wins. KB confirms two specific items (cross-property AND, segment membership) and the practitioner is internal HubSpot product staff with credible visibility into the other three. Partial support is the appropriate classification."
+    },
+    {
+      "claim_id": "384",
+      "verified_status": "unverifiable",
+      "confidence": 0.45,
+      "corpus_corroboration_count": 0,
+      "primary_source": {
+        "url": null,
+        "domain": null,
+        "title": null,
+        "publish_date": null
+      },
+      "evidence_quote": null,
+      "secondary_sources": [],
+      "search_queries_tried": [
+        "HubSpot lead scoring threshold ranges Fit Engagement A B C 1 2 3",
+        "HubSpot 50/50 split fit engagement threshold buckets recommendation"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": -0.05,
+        "reason": "Highly specific numerical recommendation (Fit A=38-50, B=24-37, C=0-23; Engagement 1=35-50, 2=18-34, 3=0-17) with no primary or secondary corroboration. Marked unverifiable: practitioner-anecdotal \u2014 clean classification, single-source heuristic."
+      },
+      "notes": "These exact threshold ranges with 50/50 fit-engagement split appear nowhere in the corpus or HubSpot KB. Practitioner-anecdotal recommendation; could be reasonable but is not platform-established or industry-canonical."
+    },
+    {
+      "claim_id": "388",
+      "verified_status": "unverifiable",
+      "confidence": 0.45,
+      "corpus_corroboration_count": 0,
+      "primary_source": {
+        "url": null,
+        "domain": null,
+        "title": null,
+        "publish_date": null
+      },
+      "evidence_quote": null,
+      "secondary_sources": [],
+      "search_queries_tried": [
+        "HubSpot lead scoring point values demo form pricing page CTA meeting webinar recommended",
+        "lead scoring engagement points demo +30 pricing page +15 meeting +35"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": -0.05,
+        "reason": "Highly specific point-value recommendations (Form +30-40, Pricing +15, CTA +10, Email click +5, Meeting +35-50, Webinar +15) with no primary corroboration. Practitioner-anecdotal heuristic \u2014 clean classification."
+      },
+      "notes": "Specific point values for engagement signals are practitioner judgment calls. Industry generally recommends weighting demo/meeting > pricing-page > CTA > email click, which aligns directionally with this claim, but the exact numbers (e.g., 'Form Demo/Pricing +30-40') are not established benchmarks. Mark unverifiable: practitioner-anecdotal."
+    },
+    {
+      "claim_id": "43",
+      "verified_status": "unverifiable",
+      "confidence": 0.45,
+      "corpus_corroboration_count": 1,
+      "primary_source": {
+        "url": null,
+        "domain": null,
+        "title": null,
+        "publish_date": null
+      },
+      "evidence_quote": null,
+      "secondary_sources": [],
+      "search_queries_tried": [
+        "corpus grep: '9-10%|18,000|197,000|duplicate'"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.0,
+        "reason": "Practitioner-anecdotal client case-study number; not a platform-canonical claim. No primary source could corroborate or contradict an internal portal audit."
+      },
+      "notes": "Practitioner-anecdotal: this is a specific client engagement number (18,000 of 197,000 contacts duplicated). Not the kind of claim verifiable against HubSpot KB. Singleton in corpus (only one related claim about Insycle dedup of 18,000+ duplicates from same practitioner). Mark as practitioner-anecdotal \u2014 not a failure but a category that bypasses primary verification."
+    },
+    {
+      "claim_id": "47",
+      "verified_status": "unverifiable",
+      "confidence": 0.45,
+      "corpus_corroboration_count": 0,
+      "primary_source": {
+        "url": null,
+        "domain": null,
+        "title": null,
+        "publish_date": null
+      },
+      "evidence_quote": null,
+      "secondary_sources": [],
+      "search_queries_tried": [
+        "corpus grep: '5,900 deals|attribution audit'"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.0,
+        "reason": "Practitioner-anecdotal client engagement number; no primary source could verify an internal audit count."
+      },
+      "notes": "Practitioner-anecdotal singleton \u2014 specific number from a single client engagement. Not platform-canonical. No corroboration possible from KB or third-party sources."
+    },
+    {
+      "claim_id": 5,
+      "verified_status": "confirmed",
+      "confidence": 0.95,
+      "corpus_corroboration_count": 1,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/build-lead-scores",
+        "domain": "knowledge.hubspot.com",
+        "title": "Build lead scores to qualify contacts, companies, and deals",
+        "publish_date": null
+      },
+      "evidence_quote": "For combined scores, the system automatically creates three score properties displaying total combined score, fit score value, engagement score value. Additionally, a threshold property generates letter-number combinations (like C1) indicating fit and engagement levels simultaneously.",
+      "secondary_sources": [
+        {
+          "url": "https://knowledge.hubspot.com/scoring/understand-the-lead-scoring-tool",
+          "domain": "knowledge.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "HubSpot combined score auto-creates fit engagement total threshold properties",
+        "site:knowledge.hubspot.com combined score fit score engagement score threshold"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": 0.1,
+        "reason": "Exact mapping of four auto-generated properties (fit, engagement, total/combined, threshold) confirmed by Tier 1 KB. Numerical-sum description aligns with Total = Fit + Engagement."
+      },
+      "notes": "Sole strong corpus source is 51e023a682f8fcf7. Tier 1 confirmation explicit on all four properties (3 score + 1 threshold)."
+    },
+    {
+      "claim_id": 6,
+      "verified_status": "partially_supported",
+      "confidence": 0.6,
+      "corpus_corroboration_count": 1,
+      "primary_source": {
+        "url": "https://knowledge.hubspot.com/scoring/understand-the-lead-scoring-tool",
+        "domain": "knowledge.hubspot.com",
+        "title": "Understand the lead scoring tool",
+        "publish_date": null
+      },
+      "evidence_quote": "A minimum sample size of 50 contacts, containing 25 converted and 25 non-converted, is required to generate a score.",
+      "secondary_sources": [
+        {
+          "url": "https://knowledge.hubspot.com/scoring/build-lead-scores-with-ai",
+          "domain": "knowledge.hubspot.com"
+        }
+      ],
+      "search_queries_tried": [
+        "site:knowledge.hubspot.com create score with AI data points minimum conversions",
+        "HubSpot AI lead scoring minimum sample size 25 50 contacts"
+      ],
+      "credibility_signal_for_practitioner": {
+        "delta": -0.05,
+        "reason": "Practitioner's '25 conversions' is half-right: HubSpot KB requires 25 converted AND 25 non-converted (50 total). Practitioner hedged with 'I believe', but missed the non-converted half."
+      },
+      "notes": "Sole corpus support is 51e023a682f8fcf7. The 25-converted figure matches one half of HubSpot's requirement; the full requirement is 50 contacts (25 + 25). Classification: partially_supported because practitioner stated only the conversion side of the threshold."
+    }
+  ]
+}

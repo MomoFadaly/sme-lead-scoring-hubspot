@@ -1,0 +1,1193 @@
+{
+  "total_concepts": 198,
+  "concepts": [
+    {
+      "name": "fit-score",
+      "status": "exploring",
+      "mention_count": 60,
+      "score": 0.5
+    },
+    {
+      "name": "engagement-score",
+      "status": "exploring",
+      "mention_count": 49,
+      "score": 0.5
+    },
+    {
+      "name": "score-decay",
+      "status": "exploring",
+      "mention_count": 34,
+      "score": 0.5
+    },
+    {
+      "name": "negative-scoring",
+      "status": "exploring",
+      "mention_count": 22,
+      "score": 0.5
+    },
+    {
+      "name": "fit-vs-engagement",
+      "status": "exploring",
+      "mention_count": 21,
+      "score": 0.5
+    },
+    {
+      "name": "combined-score",
+      "status": "exploring",
+      "mention_count": 21,
+      "score": 0.5
+    },
+    {
+      "name": "ai-scoring",
+      "status": "exploring",
+      "mention_count": 21,
+      "score": 0.5
+    },
+    {
+      "name": "group-limit",
+      "status": "exploring",
+      "mention_count": 10,
+      "score": 0.5
+    },
+    {
+      "name": "legacy-hubspot-score",
+      "status": "exploring",
+      "mention_count": 10,
+      "score": 0.5
+    },
+    {
+      "name": "score-cap",
+      "status": "exploring",
+      "mention_count": 10,
+      "score": 0.5
+    },
+    {
+      "name": "predictive-scoring",
+      "status": "exploring",
+      "mention_count": 9,
+      "score": 0.5
+    },
+    {
+      "name": "decay",
+      "status": "exploring",
+      "mention_count": 9,
+      "score": 0.5
+    },
+    {
+      "name": "score-threshold",
+      "status": "exploring",
+      "mention_count": 8,
+      "score": 0.5
+    },
+    {
+      "name": "workflows",
+      "status": "exploring",
+      "mention_count": 8,
+      "score": 0.5
+    },
+    {
+      "name": "behavioral-score",
+      "status": "exploring",
+      "mention_count": 6,
+      "score": 0.5
+    },
+    {
+      "name": "activity-vs-intent",
+      "status": "exploring",
+      "mention_count": 6,
+      "score": 0.5
+    },
+    {
+      "name": "score-property",
+      "status": "exploring",
+      "mention_count": 6,
+      "score": 0.5
+    },
+    {
+      "name": "score-cap-100",
+      "status": "exploring",
+      "mention_count": 6,
+      "score": 0.5
+    },
+    {
+      "name": "limit-to-cap",
+      "status": "exploring",
+      "mention_count": 6,
+      "score": 0.5
+    },
+    {
+      "name": "test-a-contact",
+      "status": "exploring",
+      "mention_count": 5,
+      "score": 0.5
+    },
+    {
+      "name": "firmographic-score",
+      "status": "exploring",
+      "mention_count": 5,
+      "score": 0.5
+    },
+    {
+      "name": "decay-score",
+      "status": "exploring",
+      "mention_count": 5,
+      "score": 0.5
+    },
+    {
+      "name": "positive-negative-criteria",
+      "status": "exploring",
+      "mention_count": 5,
+      "score": 0.5
+    },
+    {
+      "name": "buyer-intent-tool",
+      "status": "exploring",
+      "mention_count": 5,
+      "score": 0.5
+    },
+    {
+      "name": "feedback-loop",
+      "status": "exploring",
+      "mention_count": 5,
+      "score": 0.5
+    },
+    {
+      "name": "property-group-weighting",
+      "status": "exploring",
+      "mention_count": 5,
+      "score": 0.5
+    },
+    {
+      "name": "score-thresholds",
+      "status": "exploring",
+      "mention_count": 5,
+      "score": 0.5
+    },
+    {
+      "name": "abc-thresholds",
+      "status": "exploring",
+      "mention_count": 5,
+      "score": 0.5
+    },
+    {
+      "name": "time-frame",
+      "status": "exploring",
+      "mention_count": 5,
+      "score": 0.5
+    },
+    {
+      "name": "scoring-hierarchy",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "high-impact-pages",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "segment-membership",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "distribution-preview",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "tier-gating",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "custom-events",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "custom-score-property",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "time-bound-criteria",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "buying-intent",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "lead-disqualification",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "campaign-attribution",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "threshold-property",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "score-threshold-workflow",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "avg-score-per-deal-stage",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "exclusion-lists",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "marketing-sales-alignment",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "enrollment-trigger",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "personalization-tokens",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "behavior-score",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "company-fit-score",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "score-reset",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "mql-as-kpi",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "allbound",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "score-inflation",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "new-lead-scoring-tool",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "mql-priority-tiers",
+      "status": "exploring",
+      "mention_count": 4,
+      "score": 0.5
+    },
+    {
+      "name": "intent-signals",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "score-history-card",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "life-cycle-stage",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "lead-score-card",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "utm-attribution",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "deal-lifecycle",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "lead-score-definition",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "threshold-bands",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "score-testing",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "threshold-label-property",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "avg-score-per-lifecycle-stage",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "funnel-conversion-rate",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "contact-fit-score",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "lifecycle-stage",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "mql-handoff",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "reinbounding",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "disqualification-reasons",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "scoring-groups",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "fit-engagement-matrix",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "original-traffic-source",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "association-aggregation",
+      "status": "exploring",
+      "mention_count": 3,
+      "score": 0.5
+    },
+    {
+      "name": "conditional-scoring",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "health-score",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "score-templates",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "automatic-mql",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "actionable-thresholds",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "deduplication",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "manual-qualification-checkpoint",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "lifecycle-stage-automation",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "score-range",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "company-scoring",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "deal-scoring",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "form-fill-scoring",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "lead-grade",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "preview-distribution",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "url-filter",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "time-bounded-negative",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "new-scoring-tool-beta",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "event-group-limits",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "is-known-filter",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "audit-cadence",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "historical-rescore",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "scoring-purpose",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "score-history",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "score-limits",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "contact-engagement-score",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "test-contact",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "mql-threshold",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "rule-based-scoring",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "interest-score",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "breeze-intelligence",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "speed-to-lead",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "sales-marketing-alignment",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "right-sized-bucket",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "likelihood-to-close",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "create-score-with-ai",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "weekly-review",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "hubspot-insights-deprecation",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "buying-role-property",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "per-value-scoring",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "exclusion-list",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "legacy-migration",
+      "status": "exploring",
+      "mention_count": 2,
+      "score": 0.5
+    },
+    {
+      "name": "negative-total-score",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "insycle",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "first-touch-tracking",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "multi-brand-portal",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "data-hygiene",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "phased-rollout",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "franchise-scoring",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "stacking-criteria",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "dual-threshold",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "delay-until-event-happens",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "marketing-contact-billing",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "hubspot-insights",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "web-technologies-property",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "url-keyword-scoring",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "ip-country",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "granular-scoring",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "tiered-thresholds",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "customer-interviews",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "engagement-criteria",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "fit-criteria",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "ai-assisted-engagement-scoring",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "ai-assisted-fit-scoring",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "time-decay",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "advanced-weighting",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "targeted-scoring",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "marketing-hub-enterprise",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "human-in-the-loop",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "score-distribution-collapse",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "dynamic-decay",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "abm-scoring",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "lead-ranking",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "scoring-criteria-limit",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "retroactive-scoring",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "cookie-tracking",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "manual-scoring",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "fit-activity-scoring",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "qualification-gates",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "slow-burn-prospects",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "score-attribution",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "multi-score-fields",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "score-backfill",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "active-scores-cap",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "rotate-record-to-owner",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "workflow-enrollment-mode",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "pricing-page-intent",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "careers-page-filter",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "score-analytics",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "re-enrollment",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "lifecycle-exclusion",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "data-availability-audit",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "double-attribution",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "non-customer-exclusion",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "campaign-bound-rules",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "score-cycle-window",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "per-action-cap",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "list-membership-scoping",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "auto-score-reset",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "calculated-property",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "form-grouping",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "color-coded-tags",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "score-audit-metadata",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "ideal-customer-profile",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "explicit-data",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "implicit-data",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "lead-scoring-matrix",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "marketing-hub-pro",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "contact-combined-score",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "sql-threshold",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "volume-vs-quality",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "regression-analysis",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "fit-x-engagement-matrix",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "breeze-copilot",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "breeze-ai",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "apple-mpp",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "g2-intent",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "bombora",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "round-robin-assignment",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "random-split-branch",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "attributes-before-trigger",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "public-beta",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    },
+    {
+      "name": "company-engagement-score",
+      "status": "exploring",
+      "mention_count": 1,
+      "score": 0.5
+    }
+  ]
+}
